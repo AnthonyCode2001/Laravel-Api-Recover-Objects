@@ -16,11 +16,11 @@ return new class extends Migration
         Schema::create('solicitudes', function (Blueprint $table) {
             $table->id();
             $table->string("cedula");
-            /*$table->string("nombre_objeto");
+            $table->string("nombre_objeto");
             $table->string("color");
             $table->double("precio");
             $table->string("detalles");
-            $table->string("tipo_objeto");*/
+            $table->string("tipo_objeto");
             $table->timestamps();
         });
     }
