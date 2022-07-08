@@ -20,8 +20,8 @@ return new class extends Migration
             $table->string("color");
             $table->double("precio");
             $table->string("detalles");
-            $table->string("tipo_objeto");
-            $table->timestamps();*/
+            $table->string("tipo_objeto");*/
+            $table->timestamps();
         });
     }
 
