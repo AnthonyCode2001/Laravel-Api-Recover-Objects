@@ -8,5 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Solicitudes extends Model
 {
     use HasFactory;
-    protected $fillable = ['cedula', 'nombre_objeto', 'color', 'price', 'detalles', 'tipo_objeto'];
+    protected $fillable = ['cedula'];
+    //, 'nombre_objeto', 'color', 'price', 'detalles', 'tipo_objeto'
 }

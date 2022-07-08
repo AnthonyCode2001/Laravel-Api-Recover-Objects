@@ -37,8 +37,8 @@ class SolicitudesController extends Controller
     public function store(Request $request)
     {
         $createSolicitud = Solicitudes::create($request->all());
-        $response = ["status" => true, "mensaje" => "La solicitud ha sido creada exitósamente", "Datos" => $createSolicitud];
-        return $response;
+        $respuesta = ["status" => true, "mensaje" => "La solicitud ha sido creada exitósamente", "Datos" => $createSolicitud];
+        return $respuesta;
     }
 
     /**
