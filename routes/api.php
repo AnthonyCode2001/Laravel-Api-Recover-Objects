@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\SolicitudesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//route::apiResource('/v1/solicitudes')
+route::apiResource('/v1/solicitudes', SolicitudesController::class);
